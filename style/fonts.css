@@ -1,0 +1,252 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  src: local('MaterialIcons-Regular'),
+    url('../fonts/MaterialIcons-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+  }
+
+/* Italic Mulish font */
+@font-face {
+font-family: 'Mulish';
+src: url('../fonts/Mulish-Italic-VariableFont_wght.ttf') format('truetype');
+font-style: italic;
+}
+
+/* Bold Mulish font */
+@font-face {
+font-family: 'Mulish';
+src: url('../fonts/Mulish-VariableFont_wght.ttf') format('truetype');
+font-style: semibold;
+font-weight: 650;
+}
+
+.extralight {
+    font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+    font-weight: 200; 
+    font-style: normal; /* Normal style (not italic) */
+  }
+  
+.extralight-italic {
+font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+font-weight: 200; 
+font-style: italic; /* Italic style */
+}
+
+.light {
+    font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+    font-weight: 300;
+    font-style: normal; /* Normal style (not italic) */
+  }
+  
+.light-italic {
+font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+font-weight: 300; 
+font-style: italic; /* Italic style */
+}
+
+
+.regular {
+    font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+    font-weight: 400; 
+    font-style: normal; /* Normal style (not italic) */
+  }
+  
+.regular-italic {
+font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+font-weight: 400; 
+font-style: italic; /* Italic style */
+}
+
+.medium {
+    font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+    font-weight: 500; 
+    font-style: normal; /* Normal style (not italic) */
+  }
+  
+.medium-italic {
+font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+font-weight: 500; 
+font-style: italic; /* Italic style */
+}
+
+.semibold {
+    font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+    font-weight: 600; 
+    font-style: normal; /* Normal style (not italic) */
+  }
+  
+.semibold-italic {
+font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+font-weight: 600; 
+font-style: italic; /* Italic style */
+}
+
+
+.bold {
+    font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+    font-weight: 900; 
+    font-style: normal; /* Normal style (not italic) */
+  }
+  
+.bold-italic {
+font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+font-weight: 700; 
+font-style: italic; /* Italic style */
+}
+
+.extrabold {
+    font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+    font-weight: 800; 
+    font-style: normal; /* Normal style (not italic) */
+  }
+  
+.extrabold-italic {
+font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+font-weight: 800; 
+font-style: italic; /* Italic style */
+}
+
+.black {
+    font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+    font-weight: 900; 
+    font-style: normal; /* Normal style (not italic) */
+  }
+  
+.black-italic {
+font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+font-weight: 900; 
+font-style: italic; /* Italic style */
+}
+
+.extrablack {
+    font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+    font-weight: 1000; 
+    font-style: normal; /* Normal style (not italic) */
+  }
+  
+.extrablack-italic {
+font-family: 'Mulish', sans-serif; /* Use your font with a fallback */
+font-weight: 1000; 
+font-style: italic; /* Italic style */
+}
+
+
+
+
+f45 {
+  font-size: 45%;
+}
+
+f50 {
+  font-size: 50%;
+}
+
+f55 {
+  font-size: 55%;
+}
+
+
+f60 {
+  font-size: 60%;
+}
+
+f65 {
+  font-size: 65%;
+}
+
+f70 {
+  font-size: 70%;
+}
+
+f75 {
+  font-size: 75%;
+}
+
+f80 {
+  font-size: 80%;
+}
+
+f90 {
+  font-size: 90%;
+}
+
+
+f100 {
+  font-size: 100%;
+}
+
+f110 {
+  font-size: 110%;
+}
+
+f120 {
+  font-size: 120%;
+}
+
+f130 {
+  font-size: 130%;
+}
+
+f140 {
+  font-size: 140%;
+}
+
+f150 {
+  font-size: 150%;
+}
+
+f160 {
+  font-size: 160%;
+}
+
+f170 {
+  font-size: 170%;
+}
+
+f180 {
+  font-size: 180%;
+}
+
+f190 {
+  font-size: 190%;
+}
+
+f200 {
+  font-size: 200%;
+}
+
+f210 {
+  font-size: 210%;
+}
+
+
+.mdi {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
